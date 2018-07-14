@@ -192,7 +192,31 @@
             "properties": {
             "addressPrefix": "[parameters('subnet5Prefix')]"
             }
-        }
+          },
+        {
+              "name": "[parameters('subnet6Name')]",
+              "properties": {
+              "addressPrefix": "[parameters('subnet6Prefix')]"
+              }
+            },
+        {
+              "name": "[parameters('subnet7Name')]",
+              "properties": {
+              "addressPrefix": "[parameters('subnet7Prefix')]"
+              }
+            },
+        {
+              "name": "[parameters('subnet8Name')]",
+              "properties": {
+              "addressPrefix": "[parameters('subnet8Prefix')]"
+              }
+            },
+        {
+              "name": "[parameters('subnet9Name')]",
+              "properties": {
+              "addressPrefix": "[parameters('subnet9Prefix')]"
+              }
+            },
         ]
       }
     }

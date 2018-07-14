@@ -48,98 +48,98 @@
       "type": "string",
       "defaultValue": "10.3.@.32/28",
       "metadata": {
-        "description": "Subnet 1 Prefix"
+        "description": "Subnet 3 Prefix"
       }
     },
     "subnet1Name": {
       "type": "string",
       "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
       "metadata": {
-        "description": "Subnet 1 Name"
+        "description": "Subnet 3 Name"
       }
     },
     "subnet1Prefix": {
       "type": "string",
       "defaultValue": "10.3.@.32/28",
       "metadata": {
-        "description": "Subnet 1 Prefix"
+        "description": "Subnet 4 Prefix"
       }
     },
     "subnet1Name": {
       "type": "string",
       "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
       "metadata": {
-        "description": "Subnet 1 Name"
+        "description": "Subnet 4 Name"
       }
     },
     "subnet1Prefix": {
       "type": "string",
       "defaultValue": "10.3.@.32/28",
       "metadata": {
-        "description": "Subnet 1 Prefix"
+        "description": "Subnet 5 Prefix"
       }
     },
     "subnet1Name": {
       "type": "string",
       "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
       "metadata": {
-        "description": "Subnet 1 Name"
+        "description": "Subnet 5 Name"
       }
     },
     "subnet1Prefix": {
       "type": "string",
       "defaultValue": "10.3.@.32/28",
       "metadata": {
-        "description": "Subnet 1 Prefix"
+        "description": "Subnet 6 Prefix"
       }
     },
     "subnet1Name": {
       "type": "string",
       "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
       "metadata": {
-        "description": "Subnet 1 Name"
+        "description": "Subnet 6 Name"
       }
     },
     "subnet1Prefix": {
       "type": "string",
       "defaultValue": "10.3.@.32/28",
       "metadata": {
-        "description": "Subnet 1 Prefix"
+        "description": "Subnet 7 Prefix"
       }
     },
     "subnet1Name": {
       "type": "string",
       "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
       "metadata": {
-        "description": "Subnet 1 Name"
+        "description": "Subnet 7 Name"
       }
     },
     "subnet1Prefix": {
       "type": "string",
       "defaultValue": "10.3.@.32/28",
       "metadata": {
-        "description": "Subnet 1 Prefix"
+        "description": "Subnet 8 Prefix"
       }
     },
     "subnet1Name": {
       "type": "string",
       "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
       "metadata": {
-        "description": "Subnet 1 Name"
+        "description": "Subnet 8 Name"
       }
     },
     "subnet1Prefix": {
       "type": "string",
       "defaultValue": "10.3.@.32/28",
       "metadata": {
-        "description": "Subnet 1 Prefix"
+        "description": "Subnet 9 Prefix"
       }
     },
     "subnet1Name": {
       "type": "string",
       "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
       "metadata": {
-        "description": "Subnet 1 Name"
+        "description": "Subnet 9 Name"
       }
     },
     "location": {

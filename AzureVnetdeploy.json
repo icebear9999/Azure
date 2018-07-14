@@ -17,128 +17,128 @@
     },
     "subnet1Prefix": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "10.3.@.32/28",
       "metadata": {
-        "description": "Subnet 1 Prefix"
+        "description": "PALO_MGMT Prefix"
       }
     },
     "subnet1Name": {
       "type": "string",
-      "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
+      "defaultValue": "USAZNC@@@_MGMT_10.3.@.32m28",
       "metadata": {
-        "description": "Subnet 1 Name"
+        "description": "PALO_MGMT Name"
       }
     },
     "subnet2Prefix": {
       "type": "string",
-      "defaultValue": "10.3.8.80/28",
+      "defaultValue": "10.3.@.80/28",
       "metadata": {
-        "description": "Subnet 2 Prefix"
+        "description": "PALO_UnTrust Prefix"
       }
     },
     "subnet2Name": {
       "type": "string",
-      "defaultValue": "USAZNCGHS_UNTRUST_10.3.8.80m28",
+      "defaultValue": "USAZNC@@@_UNTRUST_10.3.@.80m28",
       "metadata": {
-        "description": "Subnet 2 Name"
+        "description": "PALO_UnTrust Name"
       }
     },
     "subnet3Prefix": {
       "type": "string",
       "defaultValue": "10.3.@.32/28",
       "metadata": {
-        "description": "Subnet 3 Prefix"
+        "description": "PALO_TRUST Prefix"
       }
     },
     "subnet3Name": {
       "type": "string",
-      "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
+      "defaultValue": "USAZNC@@@_TRUST_10.3.@.64m28",
       "metadata": {
-        "description": "Subnet 3 Name"
+        "description": "PALO_TRUST Name"
       }
     },
     "subnet4Prefix": {
       "type": "string",
-      "defaultValue": "10.3.@.32/28",
+      "defaultValue": "10.3.@.0/24",
       "metadata": {
-        "description": "Subnet 4 Prefix"
+        "description": "COMPUTE Prefix"
       }
     },
     "subnet4Name": {
       "type": "string",
-      "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
+      "defaultValue": "USAZNC@@@_COMPUTE_10.3.@.0m24",
       "metadata": {
-        "description": "Subnet 4 Name"
+        "description": "COMPUTE Name"
       }
     },
     "subnet5Prefix": {
       "type": "string",
-      "defaultValue": "10.3.@.32/28",
+      "defaultValue": "10.3.@.240/28",
       "metadata": {
-        "description": "Subnet 5 Prefix"
+        "description": "COMPUTE_DMZ Prefix"
       }
     },
     "subnet5Name": {
       "type": "string",
-      "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
+      "defaultValue": "USAZNC@@@_DMZ_COMPUTE-10.3.@.240m28",
       "metadata": {
-        "description": "Subnet 5 Name"
+        "description": "COMPUTE DMZ Name"
       }
     },
     "subnet6Prefix": {
       "type": "string",
-      "defaultValue": "10.3.@.32/28",
+      "defaultValue": "10.3.@.112/28",
       "metadata": {
-        "description": "Subnet 6 Prefix"
+        "description": "F5 MGMT Prefix"
       }
     },
     "subnet6Name": {
       "type": "string",
-      "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
+      "defaultValue": "USAZNC@@@_F5_MGMT_10.3.@.112m28",
       "metadata": {
-        "description": "Subnet 6 Name"
+        "description": "F5 MGMT Name"
       }
     },
     "subnet7Prefix": {
       "type": "string",
-      "defaultValue": "10.3.@.32/28",
+      "defaultValue": "10.3.@.128/28",
       "metadata": {
-        "description": "Subnet 7 Prefix"
+        "description": "F5 Front End Prefix"
       }
     },
     "subnet7Name": {
       "type": "string",
-      "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
+      "defaultValue": "USAZNC@@@_F5FE_10.3.@.128m28",
       "metadata": {
-        "description": "Subnet 7 Name"
+        "description": "F5 Front end Name"
       }
     },
     "subnet8Prefix": {
       "type": "string",
-      "defaultValue": "10.3.@.32/28",
+      "defaultValue": "10.3.@.144/28",
       "metadata": {
-        "description": "Subnet 8 Prefix"
+        "description": "F5 Back End Prefix"
       }
     },
     "subnet8Name": {
       "type": "string",
-      "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
+      "defaultValue": "USAZNC@@@_F5BE_10.3.@.144m28",
       "metadata": {
-        "description": "Subnet 8 Name"
+        "description": "F5 Back End Name"
       }
     },
     "subnet9Prefix": {
       "type": "string",
-      "defaultValue": "10.3.@.32/28",
+      "defaultValue": "10.3.@.0/28",
       "metadata": {
-        "description": "Subnet 9 Prefix"
+        "description": "GatewaySubnet Prefix"
       }
     },
     "subnet9Name": {
       "type": "string",
-      "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
+      "defaultValue": "GatewaySubnet",
       "metadata": {
-        "description": "Subnet 9 Name"
+        "description": "GatewaySubnet Name"
       }
     },
     "location": {

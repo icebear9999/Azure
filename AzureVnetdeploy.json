@@ -1,5 +1,4 @@
 {
-  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
     "vnetName": {
@@ -44,98 +43,98 @@
         "description": "Subnet 2 Name"
       }
     },
-    "subnet1Prefix": {
+    "subnet3Prefix": {
       "type": "string",
       "defaultValue": "10.3.@.32/28",
       "metadata": {
         "description": "Subnet 3 Prefix"
       }
     },
-    "subnet1Name": {
+    "subnet3Name": {
       "type": "string",
       "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
       "metadata": {
         "description": "Subnet 3 Name"
       }
     },
-    "subnet1Prefix": {
+    "subnet4Prefix": {
       "type": "string",
       "defaultValue": "10.3.@.32/28",
       "metadata": {
         "description": "Subnet 4 Prefix"
       }
     },
-    "subnet1Name": {
+    "subnet4Name": {
       "type": "string",
       "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
       "metadata": {
         "description": "Subnet 4 Name"
       }
     },
-    "subnet1Prefix": {
+    "subnet5Prefix": {
       "type": "string",
       "defaultValue": "10.3.@.32/28",
       "metadata": {
         "description": "Subnet 5 Prefix"
       }
     },
-    "subnet1Name": {
+    "subnet5Name": {
       "type": "string",
       "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
       "metadata": {
         "description": "Subnet 5 Name"
       }
     },
-    "subnet1Prefix": {
+    "subnet6Prefix": {
       "type": "string",
       "defaultValue": "10.3.@.32/28",
       "metadata": {
         "description": "Subnet 6 Prefix"
       }
     },
-    "subnet1Name": {
+    "subnet6Name": {
       "type": "string",
       "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
       "metadata": {
         "description": "Subnet 6 Name"
       }
     },
-    "subnet1Prefix": {
+    "subnet7Prefix": {
       "type": "string",
       "defaultValue": "10.3.@.32/28",
       "metadata": {
         "description": "Subnet 7 Prefix"
       }
     },
-    "subnet1Name": {
+    "subnet7Name": {
       "type": "string",
       "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
       "metadata": {
         "description": "Subnet 7 Name"
       }
     },
-    "subnet1Prefix": {
+    "subnet8Prefix": {
       "type": "string",
       "defaultValue": "10.3.@.32/28",
       "metadata": {
         "description": "Subnet 8 Prefix"
       }
     },
-    "subnet1Name": {
+    "subnet8Name": {
       "type": "string",
       "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
       "metadata": {
         "description": "Subnet 8 Name"
       }
     },
-    "subnet1Prefix": {
+    "subnet9Prefix": {
       "type": "string",
       "defaultValue": "10.3.@.32/28",
       "metadata": {
         "description": "Subnet 9 Prefix"
       }
     },
-    "subnet1Name": {
+    "subnet9Name": {
       "type": "string",
       "defaultValue": "USAZNCGHS_MGMT_10.3.@.32m28",
       "metadata": {
@@ -164,25 +163,38 @@
           ]
         },
         "subnets": [
-          {
-            "name": "[parameters('subnet1Name')]",
+         {
+           "name": "[parameters('subnet1Name')]",
             "properties": {
               "addressPrefix": "[parameters('subnet1Prefix')]"
+            }
             },
-            "name": "[parameters('subnet2Name')]",
-            "properties": {
+         {
+           "name": "[parameters('subnet2Name')]",
+             "properties": {
               "addressPrefix": "[parameters('subnet2Prefix')]"
+             }
             },
+          {
             "name": "[parameters('subnet3Name')]",
             "properties": {
               "addressPrefix": "[parameters('subnet3Prefix')]"
+            }
             },
+         {
             "name": "[parameters('subnet4Name')]",
             "properties": {
               "addressPrefix": "[parameters('subnet4Prefix')]"
+            }
             },
+        {
             "name": "[parameters('subnet5Name')]",
             "properties": {
             "addressPrefix": "[parameters('subnet5Prefix')]"
             }
+        }
+        ]
       }
+    }
+  ]
+}

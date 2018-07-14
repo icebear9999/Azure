@@ -17,7 +17,7 @@
     },
     "subnet1Prefix": {
       "type": "string",
-      "defaultValue": "10.3.@.32/28",
+      "defaultValue": "",
       "metadata": {
         "description": "Subnet 1 Prefix"
       }

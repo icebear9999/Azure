@@ -15,14 +15,7 @@
       "metadata": {
         "description": "Address prefix"
       }
-    },
-    "subnet1Prefix": {
-      "type": "string",
-      "defaultValue": "10.3.@.32/28",
-      "metadata": {
-        "description": "PALO_MGMT Prefix"
-      }
-    },
+     },
     "subnet1Name": {
       "type": "string",
       "defaultValue": "USAZNC@@@_MGMT_10.3.@.32m28",
@@ -30,11 +23,11 @@
         "description": "PALO_MGMT Name"
       }
     },
-    "subnet2Prefix": {
+    "subnet1Prefix": {
       "type": "string",
-      "defaultValue": "10.3.@.80/28",
+      "defaultValue": "10.3.@.32/28",
       "metadata": {
-        "description": "PALO_UnTrust Prefix"
+        "description": "PALO_MGMT Prefix"
       }
     },
     "subnet2Name": {
@@ -44,13 +37,13 @@
         "description": "PALO_UnTrust Name"
       }
     },
-    "subnet3Prefix": {
+    "subnet2Prefix": {
       "type": "string",
-      "defaultValue": "10.3.@.32/28",
+      "defaultValue": "10.3.@.80/28",
       "metadata": {
-        "description": "PALO_TRUST Prefix"
+        "description": "PALO_UnTrust Prefix"
       }
-    },
+   },
     "subnet3Name": {
       "type": "string",
       "defaultValue": "USAZNC@@@_TRUST_10.3.@.64m28",
@@ -58,11 +51,11 @@
         "description": "PALO_TRUST Name"
       }
     },
-    "subnet4Prefix": {
+    "subnet3Prefix": {
       "type": "string",
-      "defaultValue": "10.3.@.0/24",
+      "defaultValue": "10.3.@.64/28",
       "metadata": {
-        "description": "COMPUTE Prefix"
+        "description": "PALO_TRUST Prefix"
       }
     },
     "subnet4Name": {
@@ -70,13 +63,13 @@
       "defaultValue": "USAZNC@@@_COMPUTE_10.3.@.0m24",
       "metadata": {
         "description": "COMPUTE Name"
-      }
+      } 
     },
-    "subnet5Prefix": {
+    "subnet4Prefix": {
       "type": "string",
-      "defaultValue": "10.3.@.240/28",
+      "defaultValue": "10.3.@.0/24",
       "metadata": {
-        "description": "COMPUTE_DMZ Prefix"
+        "description": "COMPUTE Prefix"
       }
     },
     "subnet5Name": {
@@ -86,11 +79,11 @@
         "description": "COMPUTE DMZ Name"
       }
     },
-    "subnet6Prefix": {
+    "subnet5Prefix": {
       "type": "string",
-      "defaultValue": "10.3.@.112/28",
+      "defaultValue": "10.3.@.240/28",
       "metadata": {
-        "description": "F5 MGMT Prefix"
+        "description": "COMPUTE_DMZ Prefix"
       }
     },
     "subnet6Name": {
@@ -100,11 +93,11 @@
         "description": "F5 MGMT Name"
       }
     },
-    "subnet7Prefix": {
+    "subnet6Prefix": {
       "type": "string",
-      "defaultValue": "10.3.@.128/28",
+      "defaultValue": "10.3.@.112/28",
       "metadata": {
-        "description": "F5 Front End Prefix"
+        "description": "F5 MGMT Prefix"
       }
     },
     "subnet7Name": {
@@ -114,11 +107,11 @@
         "description": "F5 Front end Name"
       }
     },
-    "subnet8Prefix": {
+    "subnet7Prefix": {
       "type": "string",
-      "defaultValue": "10.3.@.144/28",
+      "defaultValue": "10.3.@.128/28",
       "metadata": {
-        "description": "F5 Back End Prefix"
+        "description": "F5 Front End Prefix"
       }
     },
     "subnet8Name": {
@@ -128,11 +121,11 @@
         "description": "F5 Back End Name"
       }
     },
-    "subnet9Prefix": {
+    "subnet8Prefix": {
       "type": "string",
-      "defaultValue": "10.3.@.0/28",
+      "defaultValue": "10.3.@.144/28",
       "metadata": {
-        "description": "GatewaySubnet Prefix"
+        "description": "F5 Back End Prefix"
       }
     },
     "subnet9Name": {
@@ -140,6 +133,13 @@
       "defaultValue": "GatewaySubnet",
       "metadata": {
         "description": "GatewaySubnet Name"
+      }
+    },
+    "subnet9Prefix": {
+      "type": "string",
+      "defaultValue": "10.3.@.0/28",
+      "metadata": {
+        "description": "GatewaySubnet Prefix"
       }
     },
     "location": {

@@ -137,7 +137,7 @@
     },
     "subnet9Prefix": {
       "type": "string",
-      "defaultValue": "10.3.@.0/28",
+      "defaultValue": "10.3.@.0/27",
       "metadata": {
         "description": "GatewaySubnet Prefix"
       }
